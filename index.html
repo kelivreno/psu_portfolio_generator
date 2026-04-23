@@ -3,792 +3,147 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Roise Uddin — Cybersecurity & AI Research Specialist</title>
-  <meta name="description" content="Roise Uddin is a Cybersecurity & Network Security Specialist, Adjunct Instructor, and Academic Researcher at Pacific States University, bridging technology, education, and innovation." />
-  <meta name="keywords" content="Roise Uddin, Cybersecurity, Network Security, AI, Machine Learning, Academic Research, Pacific States University" />
-  <meta name="author" content="Roise Uddin" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Roise Uddin — Cybersecurity & AI Research Specialist" />
-  <meta property="og:description" content="Bridging Technology, Education, and Innovation" />
-  <meta property="og:type" content="website" />
-
-  <!-- Fonts -->
+  <title>Kelangit | AI Builder</title>
+  <meta
+    name="description"
+    content="Portfolio of Kelangit — AI builder, electrical engineering student, and future founder."
+  />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#home" class="logo">Kelangit</a>
 
-<!-- ══════════════════════════════════════
-     NAVBAR
-══════════════════════════════════════ -->
-<nav id="navbar">
-  <div class="container">
-    <div class="nav-inner">
-      <a href="#hero" class="nav-brand">Roise<span>.</span>Uddin</a>
-
-      <ul class="nav-links">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#expertise">Expertise</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#awards">Awards</a></li>
-        <li><a href="#contact" class="nav-cta">Contact</a></li>
-      </ul>
-
-      <button class="nav-hamburger" aria-label="Toggle menu">
-        <span></span><span></span><span></span>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        ☰
       </button>
+
+      <nav class="nav-menu">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="nav-button">Contact</a>
+      </nav>
     </div>
-  </div>
-</nav>
+  </header>
 
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">AI builder • EE student • future founder</p>
+          <h1>I build useful AI products and clean web experiences.</h1>
+          <p class="hero-text">
+            I’m Kelangit, an Electrical Engineering student focused on AI,
+            product building, and turning ideas into real projects.
+          </p>
 
-<!-- ══════════════════════════════════════
-     HERO
-══════════════════════════════════════ -->
-<section id="hero">
-  <div class="container">
-    <div class="hero-grid">
-
-      <!-- Left: Text -->
-      <div class="hero-text">
-        <div class="hero-badge">🟢 Open to Collaboration &amp; Research</div>
-
-        <h1 class="hero-title">
-          Roise<br><span class="cyan">Uddin</span>
-        </h1>
-
-        <p class="hero-subtitle">Cybersecurity &amp; Network Security Specialist | Adjunct Instructor</p>
-
-        <p class="hero-tagline">
-          <em>"Bridging Technology, Education, and Innovation"</em> —
-          10+ years shaping the intersection of cyber defense, artificial intelligence, and higher education.
-        </p>
-
-        <div class="hero-actions">
-          <a href="#research" class="btn btn-primary">📄 View Research</a>
-          <a href="#contact" class="btn btn-outline">✉ Contact Me</a>
-        </div>
-
-        <div class="hero-stats">
-          <div class="hero-stat">
-            <span class="num" data-count="10" data-suffix="+">0+</span>
-            <span class="lbl">Years Experience</span>
-          </div>
-          <div class="hero-stat">
-            <span class="num" data-count="25" data-suffix="+">0+</span>
-            <span class="lbl">Publications</span>
-          </div>
-          <div class="hero-stat">
-            <span class="num" data-count="500" data-suffix="+">0+</span>
-            <span class="lbl">Students Mentored</span>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">See Projects</a>
+            <a href="#contact" class="btn btn-secondary">Let’s Connect</a>
           </div>
         </div>
-      </div>
 
-      <!-- Right: Visual orb -->
-      <div class="hero-visual">
-        <div class="hero-orb">
-          <div class="hero-icon-grid">
-            <div class="hero-icon-item"><span class="ico">🛡️</span>Cyber<br>Defense</div>
-            <div class="hero-icon-item"><span class="ico">🤖</span>AI &amp;<br>ML</div>
-            <div class="hero-icon-item"><span class="ico">🌐</span>Network<br>Security</div>
-            <div class="hero-icon-item"><span class="ico">📡</span>IT<br>Infra</div>
-            <div class="hero-icon-item"><span class="ico">🎓</span>Higher<br>Ed</div>
-            <div class="hero-icon-item"><span class="ico">🔬</span>Research</div>
-            <div class="hero-icon-item"><span class="ico">☁️</span>Cloud<br>Security</div>
-            <div class="hero-icon-item"><span class="ico">📊</span>Data<br>Science</div>
-            <div class="hero-icon-item"><span class="ico">🏆</span>Leadership</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════
-     ABOUT
-══════════════════════════════════════ -->
-<section id="about" class="section">
-  <div class="container">
-    <div class="about-grid">
-
-      <!-- Portrait -->
-      <div class="about-portrait reveal">
-        <div class="portrait-frame">
-          <div class="portrait-placeholder">
-            <span class="avatar-icon">👤</span>
-            <span>Photo Placeholder</span>
-          </div>
-        </div>
-        <div class="about-accent"></div>
-        <div class="about-accent-2"></div>
-      </div>
-
-      <!-- Content -->
-      <div class="about-content">
-        <span class="section-label reveal">About Me</span>
-        <h2 class="section-title reveal">Academic Leader &amp;<br>Cyber Specialist</h2>
-        <div class="section-divider reveal"></div>
-
-        <p class="reveal">
-          I am Roise Uddin, an Adjunct Instructor, Cybersecurity &amp; Network Security Specialist, and Academic Researcher with over a decade of experience spanning academia, IT infrastructure, and international project management.
-        </p>
-        <p class="reveal reveal-delay-1">
-          My work bridges the gap between technology, education, and leadership, with a focus on building secure, innovative, and inclusive learning environments.
-        </p>
-        <p class="reveal reveal-delay-2">
-          At Pacific States University, I teach and mentor students across computer science, business, and analytics while also contributing to the university's digital and cybersecurity infrastructure. My research explores machine learning, AI-driven diagnostics, and advanced cybersecurity strategies, published in peer-reviewed journals and presented in global academic forums.
-        </p>
-        <p class="reveal reveal-delay-3">
-          Passionate about global education standards and cross-border collaboration, I focus on innovation, leadership, and integration of technology into higher education.
-        </p>
-
-        <div class="about-highlights">
-          <div class="highlight-item reveal reveal-delay-1">
-            <span class="hi-icon">🏫</span>
-            <div>
-              <h4>Pacific States University</h4>
-              <p>Adjunct Instructor, CS &amp; Analytics</p>
-            </div>
-          </div>
-          <div class="highlight-item reveal reveal-delay-2">
-            <span class="hi-icon">🌍</span>
-            <div>
-              <h4>International Reach</h4>
-              <p>Global academic forums &amp; publications</p>
-            </div>
-          </div>
-          <div class="highlight-item reveal reveal-delay-3">
-            <span class="hi-icon">🔐</span>
-            <div>
-              <h4>Cyber Infrastructure</h4>
-              <p>University IT &amp; security systems</p>
-            </div>
-          </div>
-          <div class="highlight-item reveal reveal-delay-4">
-            <span class="hi-icon">🤖</span>
-            <div>
-              <h4>AI Research</h4>
-              <p>ML diagnostics &amp; cyber strategies</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════
-     EXPERTISE
-══════════════════════════════════════ -->
-<section id="expertise" class="section">
-  <div class="container">
-    <div class="section-header">
-      <span class="section-label reveal">Core Expertise</span>
-      <h2 class="section-title reveal">Areas of Specialization</h2>
-      <div class="section-divider reveal"></div>
-      <p class="reveal">A decade of interdisciplinary expertise at the cutting edge of cybersecurity, artificial intelligence, and academic leadership.</p>
-    </div>
-
-    <div class="expertise-grid">
-
-      <div class="expertise-card reveal">
-        <span class="exp-icon">🛡️</span>
-        <h3>Cybersecurity &amp; Network Security</h3>
-        <p>Advanced threat modeling, penetration testing frameworks, intrusion detection, and security architecture for enterprise and academic environments.</p>
-        <div class="exp-tags">
-          <span class="exp-tag">Threat Analysis</span>
-          <span class="exp-tag">IDS/IPS</span>
-          <span class="exp-tag">Zero Trust</span>
-          <span class="exp-tag">SIEM</span>
-        </div>
-      </div>
-
-      <div class="expertise-card reveal reveal-delay-1">
-        <span class="exp-icon">🤖</span>
-        <h3>Artificial Intelligence &amp; Machine Learning</h3>
-        <p>AI-driven diagnostic systems, predictive modeling, neural networks, and integration of ML into cybersecurity defense pipelines.</p>
-        <div class="exp-tags">
-          <span class="exp-tag">Deep Learning</span>
-          <span class="exp-tag">NLP</span>
-          <span class="exp-tag">TensorFlow</span>
-          <span class="exp-tag">Anomaly Detection</span>
-        </div>
-      </div>
-
-      <div class="expertise-card reveal reveal-delay-2">
-        <span class="exp-icon">🖥️</span>
-        <h3>IT Infrastructure Management</h3>
-        <p>Design and governance of enterprise-grade digital infrastructure including cloud migration, network architecture, and systems administration.</p>
-        <div class="exp-tags">
-          <span class="exp-tag">Cloud (AWS/Azure)</span>
-          <span class="exp-tag">Network Design</span>
-          <span class="exp-tag">DevSecOps</span>
-        </div>
-      </div>
-
-      <div class="expertise-card reveal">
-        <span class="exp-icon">🎓</span>
-        <h3>Academic Teaching &amp; Curriculum Development</h3>
-        <p>Designing and delivering course content in computer science, cybersecurity, and analytics at the graduate and undergraduate levels.</p>
-        <div class="exp-tags">
-          <span class="exp-tag">Course Design</span>
-          <span class="exp-tag">Student Mentorship</span>
-          <span class="exp-tag">E-Learning</span>
-        </div>
-      </div>
-
-      <div class="expertise-card reveal reveal-delay-1">
-        <span class="exp-icon">📚</span>
-        <h3>Research &amp; Publications</h3>
-        <p>Peer-reviewed journal contributions, conference presentations, and interdisciplinary research at the intersection of AI, cybersecurity, and education.</p>
-        <div class="exp-tags">
-          <span class="exp-tag">Peer Review</span>
-          <span class="exp-tag">IEEE</span>
-          <span class="exp-tag">ACM</span>
-          <span class="exp-tag">Springer</span>
-        </div>
-      </div>
-
-      <div class="expertise-card reveal reveal-delay-2">
-        <span class="exp-icon">🚀</span>
-        <h3>Project &amp; Team Leadership</h3>
-        <p>Leading cross-functional international projects, managing multidisciplinary teams, and driving technology initiatives from concept to deployment.</p>
-        <div class="exp-tags">
-          <span class="exp-tag">Agile / Scrum</span>
-          <span class="exp-tag">Cross-border Teams</span>
-          <span class="exp-tag">Stakeholder Mgmt</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════
-     SKILLS
-══════════════════════════════════════ -->
-<section id="skills" class="section">
-  <div class="container">
-    <div class="section-header">
-      <span class="section-label reveal">Proficiency</span>
-      <h2 class="section-title reveal">Technical Skills</h2>
-      <div class="section-divider reveal"></div>
-    </div>
-
-    <div class="skills-layout">
-      <div class="skill-list">
-
-        <div class="skill-item reveal">
-          <div class="skill-header">
-            <span class="skill-name">Cybersecurity</span>
-            <span class="skill-pct">95%</span>
-          </div>
-          <div class="skill-track"><div class="skill-fill" data-pct="95"></div></div>
-        </div>
-
-        <div class="skill-item reveal reveal-delay-1">
-          <div class="skill-header">
-            <span class="skill-name">Network Security</span>
-            <span class="skill-pct">90%</span>
-          </div>
-          <div class="skill-track"><div class="skill-fill" data-pct="90"></div></div>
-        </div>
-
-        <div class="skill-item reveal reveal-delay-2">
-          <div class="skill-header">
-            <span class="skill-name">Python</span>
-            <span class="skill-pct">85%</span>
-          </div>
-          <div class="skill-track"><div class="skill-fill" data-pct="85"></div></div>
-        </div>
-
-        <div class="skill-item reveal reveal-delay-3">
-          <div class="skill-header">
-            <span class="skill-name">Machine Learning</span>
-            <span class="skill-pct">80%</span>
-          </div>
-          <div class="skill-track"><div class="skill-fill" data-pct="80"></div></div>
-        </div>
-
-        <div class="skill-item reveal">
-          <div class="skill-header">
-            <span class="skill-name">Cloud Computing</span>
-            <span class="skill-pct">75%</span>
-          </div>
-          <div class="skill-track"><div class="skill-fill" data-pct="75"></div></div>
-        </div>
-
-        <div class="skill-item reveal reveal-delay-1">
-          <div class="skill-header">
-            <span class="skill-name">Academic Research</span>
-            <span class="skill-pct">95%</span>
-          </div>
-          <div class="skill-track"><div class="skill-fill" data-pct="95"></div></div>
-        </div>
-
-      </div>
-
-      <!-- Radar Chart -->
-      <div class="skills-visual reveal">
-        <div class="radar-wrap">
-          <svg id="radarCanvas"></svg>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════
-     RESEARCH
-══════════════════════════════════════ -->
-<section id="research" class="section">
-  <div class="container">
-    <div class="section-header">
-      <span class="section-label reveal">Academic Output</span>
-      <h2 class="section-title reveal">Research &amp; Publications</h2>
-      <div class="section-divider reveal"></div>
-      <p class="reveal">Contributing to global knowledge in cybersecurity, AI diagnostics, and network security through peer-reviewed journals and international conferences.</p>
-    </div>
-
-    <div class="research-grid">
-      <!-- Publications -->
-      <div class="pub-list">
-
-        <div class="pub-card reveal">
-          <div class="pub-type">Journal Article</div>
-          <h3>AI-Driven Intrusion Detection Systems: A Comparative Analysis of Deep Learning Architectures</h3>
-          <p class="pub-meta">IEEE Transactions on Information Forensics and Security · <span>2024</span></p>
-        </div>
-
-        <div class="pub-card reveal reveal-delay-1">
-          <div class="pub-type">Journal Article</div>
-          <h3>Zero-Trust Architecture in Academic Networks: Implementation Challenges and Best Practices</h3>
-          <p class="pub-meta">Journal of Cybersecurity &amp; Privacy · <span>2023</span></p>
-        </div>
-
-        <div class="pub-card reveal reveal-delay-2">
-          <div class="pub-type">Conference Paper</div>
-          <h3>Machine Learning for Anomaly Detection in University IoT Infrastructure</h3>
-          <p class="pub-meta">IEEE International Conference on Cyber Security · <span>2023</span></p>
-        </div>
-
-        <div class="pub-card reveal">
-          <div class="pub-type">Journal Article</div>
-          <h3>Integrating AI Ethics into Cybersecurity Curricula: A Framework for Higher Education</h3>
-          <p class="pub-meta">Computers &amp; Education · <span>2022</span></p>
-        </div>
-
-        <div class="pub-card reveal reveal-delay-1">
-          <div class="pub-type">Conference Paper</div>
-          <h3>Cross-Border Digital Education Security: Managing Risks in International Academic Collaborations</h3>
-          <p class="pub-meta">Global Education Technology Forum · <span>2022</span></p>
-        </div>
-
-      </div>
-
-      <!-- Sidebar -->
-      <div class="research-sidebar">
-        <div class="sidebar-box reveal">
-          <h4>🔍 Research Focus Areas</h4>
+        <div class="hero-card">
+          <p class="card-label">Currently focused on</p>
           <ul>
-            <li>AI-driven cybersecurity systems</li>
-            <li>Machine learning diagnostics</li>
-            <li>Network intrusion detection</li>
-            <li>Zero-trust security models</li>
-            <li>Digital learning environments</li>
-            <li>IoT security in academia</li>
+            <li>AI apps</li>
+            <li>RAG systems</li>
+            <li>Frontend development</li>
+            <li>Startup building</li>
           </ul>
         </div>
-
-        <div class="sidebar-box reveal reveal-delay-1">
-          <h4>📊 Academic Profiles</h4>
-          <ul>
-            <li><a href="#">Google Scholar ↗</a></li>
-            <li><a href="#">ResearchGate ↗</a></li>
-            <li><a href="#">ORCID ↗</a></li>
-            <li><a href="#">IEEE Xplore ↗</a></li>
-            <li><a href="#">Academia.edu ↗</a></li>
-          </ul>
-        </div>
-
-        <button class="cv-btn reveal reveal-delay-2">
-          📄 Download Full CV
-        </button>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
+    <section id="about" class="section">
+      <div class="container narrow">
+        <p class="section-label">About</p>
+        <h2>Who I am</h2>
+        <p>
+          I’m building my skills across AI, software, and engineering while
+          creating projects that actually solve problems. I care about strong
+          design, clear thinking, and building things that feel real, not just
+          school assignments.
+        </p>
+      </div>
+    </section>
 
-<!-- ══════════════════════════════════════
-     PROJECTS
-══════════════════════════════════════ -->
-<section id="projects" class="section">
-  <div class="container">
-    <div class="section-header">
-      <span class="section-label reveal">Portfolio</span>
-      <h2 class="section-title reveal">Featured Projects</h2>
-      <div class="section-divider reveal"></div>
-      <p class="reveal">Applied research projects spanning AI-powered defense systems, network intelligence, and academic technology platforms.</p>
-    </div>
+    <section id="projects" class="section alt-section">
+      <div class="container">
+        <p class="section-label">Projects</p>
+        <h2>Things I’m building</h2>
 
-    <div class="projects-grid">
+        <div class="cards">
+          <article class="card">
+            <h3>AI Restaurant Search</h3>
+            <p>
+              A search experience that lets people find restaurants using
+              natural language with AI-powered retrieval.
+            </p>
+          </article>
 
-      <div class="project-card reveal">
-        <div class="project-thumb">🤖</div>
-        <div class="project-body">
-          <h3>AI-Based Cyber Threat Detection System</h3>
-          <p>A deep learning system for real-time threat classification using transformer architectures trained on network flow data.</p>
-          <div class="project-stack">
-            <span class="stack-tag">Python</span>
-            <span class="stack-tag">TensorFlow</span>
-            <span class="stack-tag">Keras</span>
-            <span class="stack-tag">Elasticsearch</span>
-          </div>
-          <a href="#" class="project-link">🔗 GitHub Repository</a>
+          <article class="card">
+            <h3>Invoice Fraud Detection</h3>
+            <p>
+              A system that scores invoices, flags suspicious patterns, and
+              explains the result clearly.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>AI Tutor Concepts</h3>
+            <p>
+              Practice-focused learning tools that generate questions and help
+              students understand step by step.
+            </p>
+          </article>
         </div>
       </div>
+    </section>
 
-      <div class="project-card reveal reveal-delay-1">
-        <div class="project-thumb">📡</div>
-        <div class="project-body">
-          <h3>Network Intrusion Detection Model</h3>
-          <p>ML-powered NIDS using ensemble methods and feature engineering on the CICIDS dataset with 98.6% detection accuracy.</p>
-          <div class="project-stack">
-            <span class="stack-tag">Python</span>
-            <span class="stack-tag">Scikit-learn</span>
-            <span class="stack-tag">XGBoost</span>
-            <span class="stack-tag">Wireshark</span>
-          </div>
-          <a href="#" class="project-link">🔗 GitHub Repository</a>
+    <section id="skills" class="section">
+      <div class="container">
+        <p class="section-label">Skills</p>
+        <h2>What I use</h2>
+
+        <div class="tags">
+          <span>Python</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>AI / ML</span>
+          <span>RAG</span>
+          <span>Streamlit</span>
+          <span>GitHub</span>
         </div>
       </div>
+    </section>
 
-      <div class="project-card reveal reveal-delay-2">
-        <div class="project-thumb">🎓</div>
-        <div class="project-body">
-          <h3>Academic Digital Learning Platform</h3>
-          <p>Secure, accessible e-learning environment with adaptive content delivery, analytics dashboards, and privacy-first design.</p>
-          <div class="project-stack">
-            <span class="stack-tag">React</span>
-            <span class="stack-tag">Node.js</span>
-            <span class="stack-tag">MongoDB</span>
-            <span class="stack-tag">AWS</span>
-          </div>
-          <a href="#" class="project-link">🔗 GitHub Repository</a>
+    <section id="contact" class="section alt-section">
+      <div class="container narrow">
+        <p class="section-label">Contact</p>
+        <h2>Let’s talk</h2>
+        <p>
+          Reach out if you want to collaborate, build something, or just connect.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:your@email.com">your@email.com</a>
+          <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
       </div>
+    </section>
+  </main>
 
-      <div class="project-card reveal">
-        <div class="project-thumb">🏫</div>
-        <div class="project-body">
-          <h3>Smart University Security System</h3>
-          <p>IoT-integrated campus security system with anomaly detection, facial recognition access control, and SIEM integration.</p>
-          <div class="project-stack">
-            <span class="stack-tag">Python</span>
-            <span class="stack-tag">OpenCV</span>
-            <span class="stack-tag">Raspberry Pi</span>
-            <span class="stack-tag">Splunk</span>
-          </div>
-          <a href="#" class="project-link">🔗 GitHub Repository</a>
-        </div>
-      </div>
-
-      <div class="project-card reveal reveal-delay-1">
-        <div class="project-thumb">☁️</div>
-        <div class="project-body">
-          <h3>Zero-Trust Cloud Architecture</h3>
-          <p>Implementation of zero-trust security principles for a multi-cloud academic environment with micro-segmentation and least-privilege enforcement.</p>
-          <div class="project-stack">
-            <span class="stack-tag">AWS</span>
-            <span class="stack-tag">Azure</span>
-            <span class="stack-tag">Terraform</span>
-            <span class="stack-tag">Vault</span>
-          </div>
-          <a href="#" class="project-link">🔗 GitHub Repository</a>
-        </div>
-      </div>
-
-      <div class="project-card reveal reveal-delay-2">
-        <div class="project-thumb">🔬</div>
-        <div class="project-body">
-          <h3>AI Diagnostics Research Pipeline</h3>
-          <p>Automated research pipeline for AI model benchmarking in diagnostic applications, with experiment tracking and reproducibility tools.</p>
-          <div class="project-stack">
-            <span class="stack-tag">Python</span>
-            <span class="stack-tag">MLflow</span>
-            <span class="stack-tag">PyTorch</span>
-            <span class="stack-tag">Docker</span>
-          </div>
-          <a href="#" class="project-link">🔗 GitHub Repository</a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════
-     EVENTS
-══════════════════════════════════════ -->
-<section id="events" class="section">
-  <div class="container">
-    <div class="section-header">
-      <span class="section-label reveal">Engagements</span>
-      <h2 class="section-title reveal">Events &amp; Speaking</h2>
-      <div class="section-divider reveal"></div>
-    </div>
-
-    <div class="events-timeline">
-
-      <div class="event-item reveal">
-        <div class="event-dot"></div>
-        <div class="event-year">2024</div>
-        <h3>IEEE International Symposium on Cybersecurity</h3>
-        <p>Keynote presentation on AI-driven defense mechanisms and the future of proactive threat intelligence in academic networks.</p>
-        <span class="event-badge">Keynote Speaker</span>
-      </div>
-
-      <div class="event-item reveal reveal-delay-1">
-        <div class="event-dot"></div>
-        <div class="event-year">2024</div>
-        <h3>Pacific States University Digital Innovation Forum</h3>
-        <p>Panelist on integrating cybersecurity education into non-technical degree programs and building campus-wide digital literacy.</p>
-        <span class="event-badge">Panelist · PSU Event</span>
-      </div>
-
-      <div class="event-item reveal reveal-delay-2">
-        <div class="event-dot"></div>
-        <div class="event-year">2023</div>
-        <h3>Global Academic Leadership Conference</h3>
-        <p>Workshop facilitator: "Building Secure, Inclusive Digital Learning Environments" — attended by 200+ educators from 40 countries.</p>
-        <span class="event-badge">Workshop Facilitator</span>
-      </div>
-
-      <div class="event-item reveal">
-        <div class="event-dot"></div>
-        <div class="event-year">2023</div>
-        <h3>IEEE Computer Society — Annual Security Workshop</h3>
-        <p>Presented research on zero-trust architecture adoption in higher education institutions and a case study from Pacific States University.</p>
-        <span class="event-badge">IEEE Presenter</span>
-      </div>
-
-      <div class="event-item reveal reveal-delay-1">
-        <div class="event-dot"></div>
-        <div class="event-year">2022</div>
-        <h3>International Conference on Emerging Technologies in Education</h3>
-        <p>Co-organized a two-day symposium on AI ethics, cybersecurity pedagogy, and cross-border academic collaboration.</p>
-        <span class="event-badge">Co-Organizer</span>
-      </div>
-
-      <div class="event-item reveal reveal-delay-2">
-        <div class="event-dot"></div>
-        <div class="event-year">2022</div>
-        <h3>PSU Cybersecurity Awareness Week</h3>
-        <p>Led a series of public workshops on personal digital security, password hygiene, phishing awareness, and privacy best practices.</p>
-        <span class="event-badge">Lead Instructor · PSU Event</span>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════
-     AWARDS
-══════════════════════════════════════ -->
-<section id="awards" class="section">
-  <div class="container">
-    <div class="section-header">
-      <span class="section-label reveal">Recognition</span>
-      <h2 class="section-title reveal">Awards &amp; Honors</h2>
-      <div class="section-divider reveal"></div>
-      <p class="reveal">Recognition from global academic institutions and professional bodies for contributions to cybersecurity, AI research, and educational leadership.</p>
-    </div>
-
-    <div class="awards-gallery">
-
-      <div class="award-card reveal">
-        <div class="award-image">
-          <div class="award-image-placeholder">
-            <span class="award-trophy">🏆</span>
-            <span class="img-label">Picture 2 — Award Photo Placeholder</span>
-          </div>
-          <div class="award-overlay">
-            <p style="color: #c8d8e8; font-size: 0.85rem;">Upload your award photo here</p>
-          </div>
-        </div>
-        <div class="award-body">
-          <div class="award-year">2024</div>
-          <h3>Excellence in Cybersecurity Research Award</h3>
-          <p>Awarded by the IEEE Computer Society for outstanding contributions to AI-driven cybersecurity research and its practical application in academic environments.</p>
-        </div>
-      </div>
-
-      <div class="award-card reveal reveal-delay-1">
-        <div class="award-image">
-          <div class="award-image-placeholder">
-            <span class="award-trophy">🥇</span>
-            <span class="img-label">Picture 3 — Award Photo Placeholder</span>
-          </div>
-          <div class="award-overlay">
-            <p style="color: #c8d8e8; font-size: 0.85rem;">Upload your award photo here</p>
-          </div>
-        </div>
-        <div class="award-body">
-          <div class="award-year">2023</div>
-          <h3>Distinguished Educator Award — PSU</h3>
-          <p>Recognized by Pacific States University for transformative impact on student outcomes, curriculum innovation, and fostering a cybersecurity-aware campus culture.</p>
-        </div>
-      </div>
-
-      <div class="award-card reveal">
-        <div class="award-image">
-          <div class="award-image-placeholder">
-            <span class="award-trophy">🌟</span>
-            <span class="img-label">Award Photo Placeholder</span>
-          </div>
-        </div>
-        <div class="award-body">
-          <div class="award-year">2022</div>
-          <h3>Best Paper Award — Global Academic Forum</h3>
-          <p>Top research paper recognition at the International Conference on Emerging Technologies in Education for work on AI ethics in cybersecurity curriculum.</p>
-        </div>
-      </div>
-
-      <div class="award-card reveal reveal-delay-1">
-        <div class="award-image">
-          <div class="award-image-placeholder">
-            <span class="award-trophy">🎖️</span>
-            <span class="img-label">Award Photo Placeholder</span>
-          </div>
-        </div>
-        <div class="award-body">
-          <div class="award-year">2021</div>
-          <h3>International Research Leadership Fellowship</h3>
-          <p>Competitive fellowship awarded for leadership in cross-border academic collaboration and contributions to international cybersecurity standards in higher education.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════
-     CONTACT
-══════════════════════════════════════ -->
-<section id="contact" class="section">
-  <div class="container">
-    <div class="section-header">
-      <span class="section-label reveal">Get In Touch</span>
-      <h2 class="section-title reveal">Contact</h2>
-      <div class="section-divider reveal"></div>
-      <p class="reveal">Open to research collaborations, speaking invitations, and academic partnerships.</p>
-    </div>
-
-    <div class="contact-grid">
-
-      <!-- Info -->
-      <div class="contact-info">
-        <div class="contact-item reveal">
-          <span class="ci-icon">🏫</span>
-          <div>
-            <div class="ci-label">Affiliation</div>
-            <div class="ci-value">Pacific States University</div>
-          </div>
-        </div>
-        <div class="contact-item reveal reveal-delay-1">
-          <span class="ci-icon">📍</span>
-          <div>
-            <div class="ci-label">Location</div>
-            <div class="ci-value">California, USA</div>
-          </div>
-        </div>
-        <div class="contact-item reveal reveal-delay-2">
-          <span class="ci-icon">✉️</span>
-          <div>
-            <div class="ci-label">Email</div>
-            <div class="ci-value"><a href="mailto:roise.uddin@psu.edu">roise.uddin@psu.edu</a></div>
-          </div>
-        </div>
-        <div class="contact-item reveal reveal-delay-3">
-          <span class="ci-icon">💼</span>
-          <div>
-            <div class="ci-label">LinkedIn</div>
-            <div class="ci-value"><a href="#">linkedin.com/in/roiseuddin</a></div>
-          </div>
-        </div>
-        <div class="contact-item reveal">
-          <span class="ci-icon">🐙</span>
-          <div>
-            <div class="ci-label">GitHub</div>
-            <div class="ci-value"><a href="#">github.com/roiseuddin</a></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Form -->
-      <form class="contact-form reveal" id="contactForm">
-        <div class="form-row">
-          <div class="form-group">
-            <label>NAME</label>
-            <input type="text" placeholder="Your full name" required />
-          </div>
-          <div class="form-group">
-            <label>EMAIL</label>
-            <input type="email" placeholder="your@email.com" required />
-          </div>
-        </div>
-        <div class="form-group">
-          <label>SUBJECT</label>
-          <input type="text" placeholder="Research collaboration, Speaking invitation, etc." />
-        </div>
-        <div class="form-group">
-          <label>MESSAGE</label>
-          <textarea rows="6" placeholder="Tell me about your project, research, or collaboration idea..." required></textarea>
-        </div>
-        <button type="submit" class="form-submit">Send Message →</button>
-        <p class="form-notice">* I typically respond within 2–3 business days.</p>
-      </form>
-
-    </div>
-  </div>
-</section>
-
-
-<!-- ══════════════════════════════════════
-     FOOTER
-══════════════════════════════════════ -->
-<footer>
-  <div class="container">
-    <div class="footer-inner">
-      <div class="footer-brand">Roise<span>.</span>Uddin</div>
-      <div class="footer-copy">© 2025 Roise Uddin · Pacific States University · California, USA</div>
-      <div class="footer-links">
-        <a href="#">LinkedIn</a>
-        <a href="#">GitHub</a>
-        <a href="#">Scholar</a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<script src="js/main.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
